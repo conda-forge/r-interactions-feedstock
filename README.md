@@ -1,11 +1,11 @@
-About r-interactions
-====================
+About r-interactions-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-interactions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://interactions.jacob-long.com
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-interactions-feedstock/blob/main/LICENSE.txt)
 
 Summary: A suite of functions for conducting and interpreting analysis of statistical interaction in regression models that was formerly part of the 'jtools' package. Functionality includes visualization of two- and three-way interactions among continuous and/or categorical variables as well as calculation of "simple slopes" and Johnson-Neyman intervals (see e.g., Bauer & Curran, 2005 <doi:10.1207/s15327906mbr4003_5>). These capabilities are implemented for generalized linear models in addition to the standard linear regression context.
 
