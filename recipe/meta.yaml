@@ -1,4 +1,4 @@
-{% set version = '1.1.5' %}
+{% set version = "1.2.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/interactions_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/interactions/interactions_{{ version }}.tar.gz
-  sha256: 52d20181405a0b01fa3753ed52b2d5eba6ce5167fb4ea6eaeb73259681a4999a
+  sha256: 3ec9b3778656f930d60fab99dff0a7ab4cf784da818e6d05d25df026fb588bc8
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -53,13 +53,8 @@ about:
   home: https://interactions.jacob-long.com
   dev_url: https://github.com/jacob-long/interactions
   license: MIT
-  summary: A suite of functions for conducting and interpreting analysis of statistical interaction
-    in regression models that was formerly part of the 'jtools' package. Functionality
-    includes visualization of two- and three-way interactions among continuous and/or
-    categorical variables as well as calculation of "simple slopes" and Johnson-Neyman
-    intervals (see e.g., Bauer & Curran, 2005 <doi:10.1207/s15327906mbr4003_5>). These
-    capabilities are implemented for generalized linear models in addition to the standard
-    linear regression context.
+  summary: A suite of functions for conducting and interpreting analysis of statistical interaction in regression models that was formerly part of the 'jtools' package. Functionality includes visualization of two- and three-way interactions among continuous and/or categorical variables as well as calculation of "simple slopes"
+    and Johnson-Neyman intervals (see e.g., Bauer & Curran, 2005 <doi:10.1207/s15327906mbr4003_5>). These capabilities are implemented for generalized linear models in addition to the standard linear regression context.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
