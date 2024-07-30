@@ -26,22 +26,22 @@ requirements:
   host:
     - r-base
     - r-cli
-    - r-crayon
     - r-generics
-    - r-ggplot2
+    - r-ggplot2 >=3.4.0
     - r-jtools >=2.0.3
     - r-rlang >=0.3.0
     - r-tibble
+    - r-broom
 
   run:
     - r-base
     - r-cli
-    - r-crayon
     - r-generics
-    - r-ggplot2
+    - r-ggplot2 >=3.4.0
     - r-jtools >=2.0.3
     - r-rlang >=0.3.0
     - r-tibble
+    - r-broom
 
 test:
   commands:
